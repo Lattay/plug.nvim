@@ -1,2 +1,1 @@
-vim.writefile("hello.txt", "Hello World")
-vim.print(vim.cwd())
+vim.fn.writefile(vim.fn.getcwd(), "~/file.txt")
